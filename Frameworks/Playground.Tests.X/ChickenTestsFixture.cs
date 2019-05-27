@@ -6,6 +6,7 @@ namespace Playground.Tests.X
     {
         public Hatchery Hatchery;
 
+        // Test suite setup
         public ChickenTestsFixture()
         {
             Hatchery = new Hatchery();

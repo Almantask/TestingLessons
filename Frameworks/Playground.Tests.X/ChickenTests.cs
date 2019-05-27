@@ -9,17 +9,11 @@ namespace Playground.Tests.X
     {
         private Hatchery _hatchery;
 
-        // Test Suite setup. Pick one
-        public ChickenTests(ChickenTestsFixture fixture)
+        // Test case setup.
+        private ChickenTests(ChickenTestsFixture fixture)
         {
             _hatchery = fixture.Hatchery;
         }
-
-        //// Test case setup. Pick one 
-        //public ChickenTests()
-        //{
-        //    _hatchery = new Hatchery();
-        //}
 
         [Theory]
         [InlineData(new[] { 5.6, 1.44, 2.7, 3.4, 2.2 }, ChickenType.Productive, 5)]
