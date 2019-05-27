@@ -10,7 +10,7 @@ namespace Playground.Tests.X
         private Hatchery _hatchery;
 
         // Test case setup.
-        private ChickenTests(ChickenTestsFixture fixture)
+        public ChickenTests(ChickenTestsFixture fixture)
         {
             _hatchery = fixture.Hatchery;
         }
