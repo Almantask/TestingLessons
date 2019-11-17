@@ -14,7 +14,7 @@ namespace Playground.Tests.X
         {
         }
 
-        // Test suite setup.
+        // Gets called every time, but fixture is built once for the whole suite
         public ChickenTests(ChickenTestsFixture fixture)
         {
             _hatchery = fixture.Hatchery;
